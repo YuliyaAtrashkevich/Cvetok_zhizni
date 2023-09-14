@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цветок жизни | Ретрит-центр в Сочи</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Marck+Script&family=Work+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Import Google Icon Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--Import UIkit.css-->
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- <header class="header">
+        <div class="container">
+            <div class="header__flex">
+                <div class="header__title">
+                    <h1 class="header__h1">Цветок<br>жизни</h1>
+                    <h2 class="header__h2">ретрит-центр в Сочи</h2>
+                </div>
+                <div class="header__burger">
+                    <a href="#!" class="header__burger-link"><img src="img/menu_burger.svg" alt="Меню"
+                            class="header__burger-icon"></a>
+                </div>
+            </div>
+        </div>
+    </header> -->
+
+    <!-- <header id="header" class="header">
+        <div class="container">
+            <div class="header__flex">
+                <div class="header__title">
+                    <h1 class="header__h1">Цветок<br>жизни</h1>
+                    <h2 class="header__h2">ретрит-центр в Сочи</h2>
+                </div>
+                <div class="header__burger">
+                    <a href="#offcanvas-nav-primary" class="header__burger-link" uk-toggle><img src="img/menu_burger.svg" alt="Меню"
+                            class="header__burger-icon"></a>
+                </div>
+            </div>
+        </div>
+    </header> -->
+
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header__text">
+                <div class="header__subtitle-1">
+                    <span class="header__span subtitle-1 anim-item-1">Пространство </span>
+                    <span class="header__span subtitle-1 anim-item-2">для практик<br></span>
+                    <span class="header__span subtitle-1 anim-item-3">на берегу </span>
+                    <span class="header__span subtitle-1 anim-item-4">моря </span>
+                    <span class="header__span subtitle-1 anim-item-5">в Cочи</span>
+                </div>
+                <div class="header__subtitle-2">
+                    <span class="header__span">Ретрит-центр</span>
+                </div>
+                <div class="header__title">
+                    <div class="header__img-cont">
+                        <img class="header__img" src="img/header_bg_3.png" alt="Цветок жизни">
+                    </div>
+                    <h1 class="header__h1">Цветок<br>жизни</h1>
+                </div>
+            </div>
+            <div class="header__burger">
+                <a href="#offcanvas-nav-primary" class="header__burger-link" uk-toggle><img src="img/menu_burger.svg"
+                        alt="Меню" class="header__burger-icon"></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Всплывающее меню -->
+
+    <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+            <ul class="uk-nav uk-nav-primary uk-nav-left uk-margin-auto-vertical">
+                <li class="uk-active"><a href="#header">Главная</a></li>
+                <li><a href="#mission">Миссия</a></li>
+                <li><a href="#about">О центре</a></li>
+                <li><a href="#numbers">Что у нас есть?</a></li>
+                <li><a href="#rooms">Уютные интерьеры</a></li>
+                <li><a href="#food">Меню</a></li>
+                <li><a href="#bathroom">Сауна</a></li>
+                <li><a href="#tracking">Трекинг</a></li>
+                <li><a href="#feedback">Отзывы</a></li>
+                <li><a href="#modal">Оставить заявку</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main class="main">
+        <section id="mission" class="mission">
+            <div class="container">
+                <div class="mission__flex">
+                    <!-- <div class="mission__image reveal">
+                        <img src="img/mission_img.png" alt="Миссия" class="mission__img">
+                    </div> -->
+                    <div class="mission__text reveal">
+                        <!-- <h2 class="mission__h2">Миссия</h2> -->
+                        <p class="mission__p">Творческое пространство для практик, создающих лучшие версии себя
+                            и наполняющих сердца любовью</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="price" class="price">
+            <div class="container">
+                <!-- <div class="price__descr reveal">
+                    <h2 class="price__h2">Стоимость аренды</h2>
+                    <ul class="price__list">
+                        <li class="price__item"><b>1 октября – 31 апреля:</b> 15 000 ₱/сутки</li>
+                        <li class="price__item"><b>1 мая – 31 апреля:</b> 19 000 ₱/сутки</li>
+                        <li class="price__item"><b>Питание:</b> 1200 ₱/сутки</li>
+                    </ul>
+                    <h3 class="price__h3">В стоимость аренды включено:</h3>
+                    <ul class="price__list style-2">
+                        <li class="price__item">5 номеров вместимостью до 17 человек</li>
+                        <li class="price__item">Зал для практик</li>
+                        <li class="price__item">Кухня-гостиная</li>
+                        <li class="price__item">Сауна</li>
+                        <li class="price__item">Катание на сап-серфах</li>
+                    </ul> -->
+                <a id="modal" href="#modal1" class="price__button modal-trigger">Оставить заявку</a>
+            </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__img-container">
+                    <ul class="about__items">
+                        <li class="about__item item-1 reveal">панорама на море</li>
+                        <li class="about__item item-2 reveal">4 комфортабельных<br> номера</li>
+                        <li class="about__item item-3 reveal">сауна с выходом<br>в море</li>
+                        <li class="about__item item-4 reveal">вегетарианское меню</li>
+                        <li class="about__item item-5 reveal">красивые<br>природные места</li>
+                        <li class="about__item item-6 reveal">оборудованный<br>зал</li>
+                    </ul>
+                    <img src="img/o_centre_img.png" alt="О центре" class="about__img">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="numbers" class="numbers">
+            <div class="container card-numbers">
+                <div class="numbers__card reveal">
+                    <h2 class="numbers__h2">Что у нас есть?</h2>
+                    <ul class="numbers__list">
+                        <li class="numbers__item">400 квадратных метров</li>
+                        <li class="numbers__item">4 этажа</li>
+                        <li class="numbers__item">4 комфортабельных номера</li>
+                        <li class="numbers__item">Размещение до 15 человек</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="rooms" class="gallery rooms">
+            <!-- <div class="container rooms"> -->
+            <h2 class="rooms__h2">Уютная домашняя атмосфера</h2>
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img class="carousel-img materialboxed" src="img/room_01.png"></a>
+                <a class="carousel-item" href="#two!"><img class="carousel-img materialboxed" src="img/room_02.png"></a>
+                <a class="carousel-item" href="#three!"><img class="carousel-img materialboxed"
+                        src="img/room_03.png"></a>
+                <a class="carousel-item" href="#four!"><img class="carousel-img materialboxed"
+                        src="img/room_04.png"></a>
+                <a class="carousel-item" href="#five!"><img class="carousel-img materialboxed"
+                        src="img/room_05.png"></a>
+                <a class="carousel-item" href="#six!"><img class="carousel-img materialboxed" src="img/room_06.png"></a>
+                <a class="carousel-item" href="#seven!"><img class="carousel-img materialboxed"
+                        src="img/room_07.png"></a>
+                <a class="carousel-item" href="#eight!"><img class="carousel-img materialboxed"
+                        src="img/room_08.png"></a>
+                <a class="carousel-item" href="#nine!"><img class="carousel-img materialboxed"
+                        src="img/room_09.png"></a>
+                <a class="carousel-item" href="#ten!"><img class="carousel-img materialboxed" src="img/room_10.png"></a>
+                <a class="carousel-item" href="#eleven!"><img class="carousel-img materialboxed"
+                        src="img/room_11.png"></a>
+                <a class="carousel-item" href="#twelve!"><img class="carousel-img materialboxed"
+                        src="img/room_12.png"></a>
+                <a class="carousel-item" href="#thirteen!"><img class="carousel-img materialboxed"
+                        src="img/room_13.png"></a>
+                <a class="carousel-item" href="#fourteen!"><img class="carousel-img materialboxed"
+                        src="img/room_14.png"></a>
+                <a class="carousel-item" href="#fiveteen!"><img class="carousel-img materialboxed"
+                        src="img/room_15.png"></a>
+                <a class="carousel-item" href="#sixteen!"><img class="carousel-img materialboxed"
+                        src="img/room_16.png"></a>
+                <a class="carousel-item" href="#seventeen!"><img class="carousel-img materialboxed"
+                        src="img/room_17.png"></a>
+                <a class="carousel-item" href="#eighteen!"><img class="carousel-img materialboxed"
+                        src="img/room_18.png"></a>
+                <a class="carousel-item" href="#nineteen!"><img class="carousel-img materialboxed"
+                        src="img/room_19.png"></a>
+                <a class="carousel-item" href="#twenty!"><img class="carousel-img materialboxed"
+                        src="img/room_20.png"></a>
+                <a class="carousel-item" href="#twenty-one!"><img class="carousel-img materialboxed"
+                        src="img/room_21.png"></a>
+                <a class="carousel-item" href="#twenty-two!"><img class="carousel-img materialboxed"
+                        src="img/room_22.png"></a>
+                <a class="carousel-item" href="#twenty-three!"><img class="carousel-img materialboxed"
+                        src="img/room_23.png"></a>
+                <a class="carousel-item" href="#twenty-four!"><img class="carousel-img materialboxed"
+                        src="img/room_24.png"></a>
+                <a class="carousel-item" href="#twenty-five!"><img class="carousel-img materialboxed"
+                        src="img/room_25.png"></a>
+                <a class="carousel-item" href="#twenty-six!"><img class="carousel-img materialboxed"
+                        src="img/room_26.png"></a>
+                <a class="carousel-item" href="#twenty-seven!"><img class="carousel-img materialboxed"
+                        src="img/room_27.png"></a>
+            </div>
+            <!-- </div> -->
+        </section>
+
+
+        <!-- <section id="rooms" class="gallery rooms">
+            <div class="container">
+                <h2 class="rooms__h2">Уютная домашняя атмосфера</h2>
+                <div
+                    uk-slideshow="animation: fade; max-height: 700; autoplay: true; autoplay-interval: 2700; finite: false; easing: ease-in-out; min-height: 270; max-height: 800">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                        <ul class="uk-slideshow-items">
+                            <li>
+                                <img class="gallery__img materialboxed" src="img/room_01.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img materialboxed" src="img/room_02.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img materialboxed" src="img/room_03.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img materialboxed" src="img/room_04.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_05.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_06.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_07.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_08.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_09.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_10.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_11.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_12.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_13.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_14.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_15.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_16.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_17.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_18.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_19.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_20.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_21.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_22.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_23.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_24.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_25.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_26.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/room_27.png" alt="" uk-cover>
+                            </li>
+                        </ul>
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                            uk-slidenav-previous uk-slideshow-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                            uk-slideshow-item="next"></a>
+                    </div>
+                    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="food" class="food">
+            <div class="food__descr">
+                <h2 class="food__h2">Вегетарианское меню</h2>
+                <p class="food__text">Сбалансированное питание, состоящее из простых<br>и невероятно вкусных блюд</p>
+            </div>
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img class="carousel-img materialboxed" src="img/food_01.png"></a>
+                <a class="carousel-item" href="#two!"><img class="carousel-img materialboxed" src="img/food_02.png"></a>
+                <a class="carousel-item" href="#three!"><img class="carousel-img materialboxed"
+                        src="img/food_03.png"></a>
+                <a class="carousel-item" href="#four!"><img class="carousel-img materialboxed"
+                        src="img/food_04.png"></a>
+                <a class="carousel-item" href="#five!"><img class="carousel-img materialboxed"
+                        src="img/food_05.png"></a>
+                <a class="carousel-item" href="#six!"><img class="carousel-img materialboxed" src="img/food_06.png"></a>
+                <a class="carousel-item" href="#six!"><img class="carousel-img materialboxed" src="img/food_07.png"></a>
+                <a class="carousel-item" href="#six!"><img class="carousel-img materialboxed" src="img/food_08.png"></a>
+                <a class="carousel-item" href="#six!"><img class="carousel-img materialboxed" src="img/food_09.png"></a>
+            </div>
+        </section>
+
+        <section id="bathroom" class="bathroom">
+            <div class="container">
+                <div class="bathroom__flex">
+                    <div class="bathroom__text reveal">
+                        <h2 class="bathroom__h2">Сауна</h2>
+                        <p class="bathroom__p">Парение вениками, ароматерапия и купание в море</p>
+                    </div>
+                    <div class="bathroom__image reveal">
+                        <img src="img/bathroom_img.png" alt="Сауна" class="bathroom__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tracking" class="gallery tracking">
+            <div class="container">
+                <h2 class="tracking__h2">Трекинг</h2>
+                <p class="tracking__text">Природные достопримечательности в пешей доступности</p>
+                <div
+                    uk-slideshow="animation: fade; max-height: 700; autoplay: true; autoplay-interval: 2700; finite: false; easing: ease-in-out; min-height: 270; max-height: 800">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                        <ul class="uk-slideshow-items">
+                            <li>
+                                <img class="gallery__img" src="img/tracking_01.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/tracking_03.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/tracking_02.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/tracking_04.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/tracking_05.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img class="gallery__img" src="img/tracking_06.png" alt="" uk-cover>
+                            </li>
+                        </ul>
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                            uk-slidenav-previous uk-slideshow-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                            uk-slideshow-item="next"></a>
+                    </div>
+                    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="sea" class="sea">
+            <div class="container">
+                <div class="sea__descr">
+                    <h2 class="sea__h2">Море</h2>
+                    <p class="sea__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="feedback" class="feedback">
+            <div class="container">
+                <h2 class="feedback__h2">Отзывы</h2>
+                <div
+                    uk-slider="animation: fade; max-height: 700; autoplay: true; autoplay-interval: 2700; finite: false; easing: ease-in-out; max-height: 580">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                        <ul
+                            class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid">
+                            <li>
+                                <div class="feedback__card">
+                                    <div class="feedback__text">
+                                        <h3 class="feedback__h3">Иванов Иван</h3>
+                                        <p class="feedback__p">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. </p>
+                                    </div>
+                            </li>
+                            <li>
+                                <div class="feedback__card">
+                                    <div class="feedback__text">
+                                        <h3 class="feedback__h3">ФИО</h3>
+                                        <p class="feedback__p">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feedback__card">
+                                    <div class="feedback__text">
+                                        <h3 class="feedback__h3">ФИО</h3>
+                                        <p class="feedback__p">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feedback__card">
+                                    <div class="feedback__text">
+                                        <h3 class="feedback__h3">ФИО</h3>
+                                        <p class="feedback__p">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feedback__card">
+                                    <div class="feedback__text">
+                                        <h3 class="feedback__h3">ФИО</h3>
+                                        <p class="feedback__p">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feedback__card">
+                                    <div class="feedback__text">
+                                        <h3 class="feedback__h3">ФИО</h3>
+                                        <p class="feedback__p">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                            uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                    </div>
+                    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                </div>
+                <div class="feedback__video">
+                    <video controls width="250">
+                        <source src="img/video_01_new.mp4" type="video/mp4">
+                    </video>
+                    <video controls width="250">
+                        <source src="img/video_02.mp4" type="video/mp4">
+                    </video>
+                    <video controls width="250">
+                        <source src="img/video_03.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section id="price" class="price">
+            <div class="container">
+                <!-- <div class="price__descr reveal">
+                    <h2 class="price__h2">Стоимость аренды</h2>
+                    <ul class="price__list">
+                        <li class="price__item"><b>1 октября – 31 апреля:</b> 15 000 ₱/сутки</li>
+                        <li class="price__item"><b>1 мая – 31 апреля:</b> 19 000 ₱/сутки</li>
+                        <li class="price__item"><b>Питание:</b> 1200 ₱/сутки</li>
+                    </ul>
+                    <h3 class="price__h3">В стоимость аренды включено:</h3>
+                    <ul class="price__list style-2">
+                        <li class="price__item">5 номеров вместимостью до 17 человек</li>
+                        <li class="price__item">Зал для практик</li>
+                        <li class="price__item">Кухня-гостиная</li>
+                        <li class="price__item">Сауна</li>
+                        <li class="price__item">Катание на сап-серфах</li>
+                    </ul> -->
+                <a id="modal" href="#modal1" class="price__button modal-trigger">Оставить заявку</a>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Форма обратной связи -->
+
+    <div id="modal1" class="modal">
+        <div class="modal__close-icon"><a class="modal-close" href="#!"><i class="material-icons">close</i></a></div>
+        <div class="modal-content">
+            <h2>Уточним детали?</h2>
+            <p>Оставьте заявку на обратный звонок, и мы обязательно свяжемся с вами.</p>
+            <form class="modal__form">
+                <input class="modal__form-input" type="text" placeholder="Ваше имя" required>
+                <input class="modal__form-input" type="tel" placeholder="Ваш телефон" required>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close modal__footer-btn">Отправить</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__flex">
+                <div class="footer__address">
+                    <h2 class="footer__h2">Наш адрес</h2>
+                    <span class="footer__span">г. Сочи, Новороссийское шоссе, 27</span>
+                </div>
+                <div class="footer__contacts">
+                    <a href="https://www.instagram.com/retritcenter.sochi/" class="footer__link">
+                        <img src="img/Instagram_logo.svg" alt="Наш Instagram" class="footer__img">
+                        <span class="footer__span span-2">retritcenter.sochi</span>
+                    </a>
+                    <a href="tel:+79186980275" class="footer__link">
+                        <img src="img/phone_logo.svg" alt="Наш телефон" class="footer__img">
+                        <span class="footer__span span-2">8 (918) 698-02-75</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/uikit.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
