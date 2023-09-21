@@ -54,7 +54,7 @@ body {
 
 .header__span.anim-item-1 {
     opacity: 0;
-    animation: anim-item-1 10s ease-in-out;
+    animation: anim-item-1 7s ease-in-out;
     animation-delay: 0;
     animation-fill-mode: backwards;
 }
@@ -71,8 +71,8 @@ body {
 
 .header__span.anim-item-2 {
     opacity: 0;
-    animation: anim-item-2 8s ease-in-out;
-    animation-delay: 2s;
+    animation: anim-item-2 6s ease-in-out;
+    animation-delay: 1s;
     animation-fill-mode: backwards;
 }
 
@@ -88,8 +88,8 @@ body {
 
 .header__span.anim-item-3 {
     opacity: 0;
-    animation: anim-item-3 6s ease-in-out;
-    animation-delay: 4s;
+    animation: anim-item-3 5s ease-in-out;
+    animation-delay: 2s;
     animation-fill-mode: backwards;
 }
 
@@ -106,7 +106,7 @@ body {
 .header__span.anim-item-4 {
     opacity: 0;
     animation: anim-item-4 4s ease-in-out;
-    animation-delay: 6s;
+    animation-delay: 3s;
     animation-fill-mode: backwards;
 }
 
@@ -123,8 +123,8 @@ body {
 
 .header__span.anim-item-5 {
     opacity: 0;
-    animation: anim-item-5 2s ease-in-out;
-    animation-delay: 8s;
+    animation: anim-item-5 3s ease-in-out;
+    animation-delay: 4s;
     animation-fill-mode: backwards;
 }
 
@@ -142,7 +142,7 @@ body {
     text-align: center;
     animation: header__subtitle-2 5.2s ease-in-out;
     animation-fill-mode: both;
-    animation-delay: 10.1s;
+    animation-delay: 7.1s;
 }
 
 @keyframes header__subtitle-2 {
@@ -207,7 +207,7 @@ body {
     width: 100%;
     animation: header__img 2.7s ease-in-out;
     animation-fill-mode: both;
-    animation-delay: 15.3s;
+    animation-delay: 12.3s;
 }
 
 @keyframes header__img {
@@ -250,7 +250,7 @@ body {
     text-align: right;
     animation: header__h1 2.7s ease-in-out;
     animation-fill-mode: both;
-    animation-delay: 15.3s;
+    animation-delay: 12.3s;
 }
 
 @keyframes header__h1 {
@@ -345,12 +345,11 @@ body {
     .header__img-cont {
         max-width: 550px;
         margin-right: 0;
-        opacity: 0.6;
     }
 
     .header__h1 {
         font-size: 92px;
-        position: absolute;
+        /* position: absolute; */
     }
 }
 
@@ -361,7 +360,7 @@ body {
 
     .header__h1 {
         font-size: 80px;
-        position: absolute;
+        /* position: absolute; */
     }
 
     .header__span {
