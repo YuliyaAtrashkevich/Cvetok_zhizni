@@ -460,11 +460,11 @@ body {
 .price__h2,
 .footer__h2 {
     font-family: 'Akrobat Black', sans-serif;
-    /* font-weight: 700; */
     font-size: 20px;
     color: #bb9b49;
     text-transform: uppercase;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .mission__p {
@@ -518,7 +518,15 @@ body {
     }
 }
 
-.about {
+.background-video {
+    position: relative;
+   /*  right: 0;
+    bottom: 0; */
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+/* .about {
     padding-top: 110px;
     padding-bottom: 100px;
     text-align: center;
@@ -547,7 +555,6 @@ body {
 
 .about__item {
     font-family: 'Akrobat Thin', sans-serif;
-    /* font-weight: 400; */
     font-size: 14px;
     letter-spacing: 0.03em;
     color: #525252;
@@ -716,7 +723,7 @@ body {
         top: -15%;
         opacity: 1;
     }
-}
+} */
 
 
 /* @media (max-width: 852px) {
@@ -1070,7 +1077,16 @@ body {
 }
 
 .container.card-numbers {
-    max-width: 600px;
+    max-width: 800px;
+}
+
+.numbers__text {
+    font-family: 'Akrobat Thin', sans-serif;
+    font-size: 16px;
+    color: #525252;
+    text-align: center;
+    text-transform: none;
+    padding-bottom: 30px;
 }
 
 .numbers__card {
@@ -1083,6 +1099,8 @@ body {
     box-shadow: 4px 5px 13px rgb(0, 0, 0, 0.25);
     padding-top: 130px;
     padding-bottom: 130px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .active.numbers__card {
@@ -1113,24 +1131,33 @@ body {
 
 .numbers__list {
     margin-top: 45px;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
 }
 
 .numbers__item {
     font-family: 'Akrobat Thin', sans-serif;
-    /* font-weight: 400; */
     font-size: 16px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.01em;
     color: #4D4959;
-    text-transform: lowercase;
-    list-style: none;
+    text-transform: none;
+    text-align: center;
+    padding-bottom: 16px;
 }
 
-.numbers__item::before {
+/* .numbers__item::before {
     content: url(../img/list_style.svg);
     vertical-align: middle;
     margin-right: 15px;
+}*/
+
+.numbers__item::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #bb9b49;
+    margin: 20px auto 0;
 }
 
 .numbers__item:last-child {
@@ -1138,6 +1165,16 @@ body {
 }
 
 @media (max-width: 524px) {
+    .numbers__card {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .numbers__text {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
     .numbers__item {
         font-size: 14px;
         letter-spacing: 0.1em;
@@ -1153,7 +1190,7 @@ body {
     .numbers__item {
         font-size: 12px;
         letter-spacing: 0.05em;
-        text-align: left;
+        text-align: center;
 
     }
 }
@@ -1167,7 +1204,7 @@ body {
     .numbers__item {
         font-size: 10px;
         letter-spacing: 0.05em;
-        text-align: left;
+        text-align: center;
 
     }
 }
@@ -1186,7 +1223,6 @@ body {
 .food__text,
 .sea_text {
     font-family: 'Akrobat Thin', sans-serif;
-    /* font-weight: 400; */
     font-size: 16px;
     color: #525252;
     text-align: center;
@@ -1404,6 +1440,11 @@ body {
     text-align: center;
 }
 
+.food__text {
+    padding-bottom: 10px;
+    text-transform:none;
+}
+
 /* 
 
 @media (min-width: 1601px) {
@@ -1497,7 +1538,6 @@ body {
 
 .bathroom__p {
     font-family: 'Akrobat Thin', sans-serif;
-    /* font-weight: 400; */
     font-size: 16px;
     color: #525252;
     text-align: center;
