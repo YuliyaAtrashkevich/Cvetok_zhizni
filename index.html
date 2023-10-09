@@ -13,9 +13,9 @@
     <!-- Import Google Icon Font -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" /> -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <!--Import UIkit.css-->
-    <!-- <link rel="stylesheet" href="css/uikit.min.css"> -->
+    <link rel="stylesheet" href="css/uikit.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -52,7 +52,7 @@
 
     <!-- Всплывающее меню -->
 
-    <!-- <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+    <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
         <div class="uk-offcanvas-bar uk-flex uk-flex-column">
             <ul class="uk-nav uk-nav-primary uk-nav-left uk-margin-auto-vertical">
                 <li class="uk-active"><a href="#header">Главная</a></li>
@@ -67,7 +67,7 @@
                 <li><a href="#modal">Оставить заявку</a></li>
             </ul>
         </div>
-    </div> -->
+    </div>
 
     <main class="main">
         <section id="mission" class="mission">
@@ -115,7 +115,70 @@
 
         <section id="rooms" class="gallery rooms">
             <h2 class="rooms__h2">Уютная домашняя атмосфера</h2>
-            <div id="carouselRooms" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="img/rooms_01.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_02.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_03.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_04.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_05.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_06.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_07.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_08.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_09.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_10.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_11.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_12.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_13.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_14.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_15.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_16.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_17.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/rooms_18.jpg" alt="" uk-cover>
+                    </li>
+                </ul>
+            
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slideshow-item="next"></a>
+            
+            </div>
+            <!-- <div id="carouselRooms" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="img/rooms_01.jpg" class="d-block w-100" alt="...">
@@ -182,7 +245,7 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>
+            </div> -->
         </section>
 
         <section id="food" class="food">
@@ -194,7 +257,28 @@
                         и накормит всех с любовью к удобному для вас времени.</p>
                 </div>
             </div>
-            <div id="carouselFood" class="carousel slide" data-bs-ride="carousel">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="img/food_01.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/food_02.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/food_03.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/food_04.jpg" alt="" uk-cover>
+                    </li>
+                </ul>
+            
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slideshow-item="next"></a>
+            
+            </div>
+            <!-- <div id="carouselFood" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="img/food_01.jpg" class="d-block w-100" alt="...">
@@ -217,7 +301,7 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>
+            </div> -->
         </section>
 
         <section id="bathroom" class="bathroom">
@@ -230,7 +314,28 @@
                     </div>
                 </div>
             </div>
-            <div id="carouselBathroom" class="carousel slide" data-bs-ride="carousel">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="img/bathroom_04.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/bathroom_01.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/bathroom_02.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/bathroom_03.jpg" alt="" uk-cover>
+                    </li>
+                </ul>
+            
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slideshow-item="next"></a>
+            
+            </div>
+            <!-- <div id="carouselBathroom" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="img/bathroom_04.jpg" class="d-block w-100" alt="...">
@@ -255,7 +360,7 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>
+            </div> -->
         </section>
 
         <section id="tracking" class="tracking">
@@ -268,7 +373,22 @@
                         великолепными водопадами.</p>
                 </div>
             </div>
-            <div id="carouselTracking" class="carousel slide" data-bs-ride="carousel">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="img/tracking_01.jpeg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/tracking_02.jpg" alt="" uk-cover>
+                    </li>
+                </ul>
+            
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slideshow-item="next"></a>
+            
+            </div>
+            <!-- <div id="carouselTracking" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="img/tracking_01.jpeg" class="d-block w-100" alt="...">
@@ -293,7 +413,7 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>
+            </div> -->
         </section>
 
 
@@ -307,7 +427,28 @@
                         шезлонги и сап-серфы для покорения Черного моря.</p>
                 </div>
             </div>
-            <div id="carouselSea" class="carousel slide" data-bs-ride="carousel">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="img/sea_01.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/sea_02.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/sea_03.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/sea_04.jpg" alt="" uk-cover>
+                    </li>
+                </ul>
+            
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slideshow-item="next"></a>
+            
+            </div>
+            <!-- <div id="carouselSea" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="img/sea_01.jpg" class="d-block w-100" alt="...">
@@ -330,7 +471,7 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>
+            </div> -->
         </section>
 
         <section id="feedback" class="feedback">

@@ -374,9 +374,9 @@ body {
 
 /* Всплывающее меню */
 
-/* .uk-offcanvas-bar {
+.uk-offcanvas-bar {
     background: rgb(187, 155, 73, 0.9);
-} */
+}
 
 .mission {
     padding-top: 110px;
@@ -470,7 +470,7 @@ body {
     font-size: 18px;
     letter-spacing: 0.08em;
     color: #525252;
-    text-align: center;
+    text-align: justify;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -532,7 +532,13 @@ body {
     min-width: 100%;
     min-height: 100%;
   }
-
+ 
+@media (max-width: 780px) {
+    .background-video {
+        width: 100%;
+        /* min-height: 100%; */
+      }
+}
 .numbers {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -1111,7 +1117,7 @@ body {
 
 /* Модальное окно */
 
-/* .modal__close-icon {
+.modal__close-icon {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -1279,4 +1285,4 @@ body {
     .modal-content p {
         font-size: 14px;
     }
-} */
+}
