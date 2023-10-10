@@ -18,8 +18,4 @@ window.addEventListener("scroll", reveal);
 document.addEventListener('DOMContentLoaded', function () {
   var modal = document.querySelectorAll('.modal');
   var instances = M.Modal.init(modal);
-  var zoom = document.querySelectorAll('.materialboxed');
-  var instances = M.Materialbox.init(zoom);
-  var carousel = document.querySelectorAll('.carousel');
-  var instances = M.Carousel.init(carousel);
 });

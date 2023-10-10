@@ -813,7 +813,7 @@ body {
 
 .feedback {
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 0;
     text-align: center;
 }
 
@@ -868,25 +868,6 @@ body {
 polyline {
     fill: #bb9b49;
 }
-
-@media (max-width: 780px) {
-
-}
-
-/* @media (max-width: 1040px) {
-    .feedback__cards {
-        flex-direction: column;
-        align-items: center;
-    }
-    .feedback__card {
-        width: 70%;
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-    .feedback__card:last-child {
-        margin-bottom: 0;
-    }
-} */
 
 .price {
     padding-top: 70px;
@@ -1087,26 +1068,32 @@ polyline {
 
 /* Модальное окно */
 
-.modal__close-icon {
+/* .modal__close-icon {
     position: absolute;
     top: 20px;
     right: 20px;
+} */
+
+.uk-modal-body {
+    border-radius: 20px;
 }
 
-.modal-content h2 {
+.uk-modal-body h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: #bb9b49;
     text-transform: uppercase;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
-.modal-content p {
+.uk-modal-body p {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #848789;
+    text-align: center;
 }
 
 .modal__form {
@@ -1115,7 +1102,7 @@ polyline {
     align-items: center;
 }
 
-.modal__form input {
+.modal__form-input {
     padding: 15px 0 15px 15px;
     width: 100%;
     margin-bottom: 30px;
@@ -1124,111 +1111,16 @@ polyline {
     transition: all 0.3s ease-in;
 }
 
-.modal__form input:hover {
+.modal__form-input:hover {
     border: none;
 }
 
-.modal__form input:focus {
+.modal__form-input:focus {
     border-bottom: 2px solid #bb9b49;
     transition: all 0.3s ease-out;
 }
 
-.z-depth-5,
-.modal {
-    -webkit-box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
-}
-
-.modal {
-    display: none;
-    position: fixed;
-    left: 0;
-    right: 0;
-    background-color: #fafafa;
-    padding: 40px 40px 0px 40px;
-    max-height: 70%;
-    max-width: 400px;
-    margin: 0 auto;
-    overflow-y: auto;
-    border-radius: 40px;
-    will-change: top, opacity;
-}
-
-.modal:focus {
-    outline: none;
-}
-
-.modal .modal-content {
-    text-align: center;
-}
-
-.modal .modal-close {
-    cursor: pointer;
-}
-
-.modal__close-icon .modal-close {
-    color: #bb9b49;
-}
-
-.modal .modal-footer {
-    border-radius: 0 0 2px 2px;
-    background-color: #fafafa;
-    padding: 4px 6px;
-    height: 56px;
-    text-align: center;
-}
-
-.modal .modal-footer .btn,
-.modal .modal-footer .btn-large,
-.modal .modal-footer .btn-small,
-.modal .modal-footer .btn-flat {
-    margin: 6px 0;
-}
-
-.modal-overlay {
-    position: fixed;
-    z-index: 999;
-    top: -25%;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 125%;
-    width: 100%;
-    background: #000;
-    display: none;
-    will-change: opacity;
-}
-
-.modal.modal-fixed-footer {
-    padding: 0;
-    height: 70%;
-}
-
-.modal.modal-fixed-footer .modal-content {
-    position: absolute;
-    height: calc(100% - 56px);
-    max-height: 100%;
-    width: 100%;
-    overflow-y: auto;
-}
-
-.modal.modal-fixed-footer .modal-footer {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    position: absolute;
-    bottom: 0;
-}
-
-.modal.bottom-sheet {
-    top: auto;
-    bottom: -100%;
-    margin: 0;
-    width: 100%;
-    max-height: 45%;
-    border-radius: 0;
-    will-change: bottom, opacity;
-}
-
-.modal__footer-btn {
+.uk-button {
     background-color: #bb9b49;
     border-radius: 40px;
     color: #fff;
@@ -1241,18 +1133,9 @@ polyline {
     text-align: center;
 }
 
-.modal__footer-btn:hover {
+.uk-button:hover {
     box-shadow: 4px 5px 7px rgb(0, 0, 0, 0.25);
     text-decoration: none;
     color: #fff;
-}
-
-@media (max-width: 480px) {
-    .modal-content h2 {
-        font-size: 16px;
-    }
-
-    .modal-content p {
-        font-size: 14px;
-    }
+    background-color: #bb9b49;
 }
