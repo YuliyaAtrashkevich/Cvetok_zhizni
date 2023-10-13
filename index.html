@@ -21,6 +21,8 @@
 
 <body>
 
+    <!--Хэдер-->
+
     <header id="header" class="header">
         <div class="my_container">
             <div class="header__text">
@@ -73,6 +75,9 @@
     </div>
 
     <main class="main">
+        
+        <!--Секция с видео-->
+
         <section id="about" class="about">
             <video autoplay muted loop class="background-video">
                 <source src="img/video_04.mp4" type="video/mp4">
@@ -84,6 +89,8 @@
                 <a href="#modal-feedback" uk-toggle class="price__button modal-trigger">Оставить заявку</a>
             </div>
         </section>
+
+        <!--Секция карточки с описанием центра-->
 
         <section id="numbers" class="numbers">
             <div class="my_container card-numbers">
@@ -104,6 +111,8 @@
                 </div>
             </div>
         </section>
+
+        <!--Слайдер с фото интерьеров-->
 
         <section id="rooms" class="gallery rooms">
             <h2 class="rooms__h2">Уютная домашняя атмосфера</h2>
@@ -167,6 +176,8 @@
             </div>
         </section>
 
+        <!--Секция меню-->
+
         <section id="food" class="food">
             <div class="container">
                 <div class="food__descr">
@@ -191,6 +202,15 @@
                     <li>
                         <img src="img/food_04.jpg" alt="" uk-cover>
                     </li>
+                    <li>
+                        <img src="img/food_05.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/food_06.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/food_07.jpg" alt="" uk-cover>
+                    </li>
                 </ul>
             
                 <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
@@ -198,6 +218,8 @@
             
             </div>
         </section>
+
+        <!--Секция сауна-->
 
         <section id="bathroom" class="bathroom">
             <div class="container">
@@ -231,6 +253,8 @@
             </div>
         </section>
 
+        <!--Секция Природные достопримечательности-->
+
         <section id="tracking" class="tracking">
             <div class="my_container">
                 <div class="food__descr">
@@ -262,6 +286,7 @@
         </section>
 
 
+        <!--Секция море со слайдером-->
 
         <section id="sea" class="sea">
             <div class="my_container">
@@ -301,6 +326,8 @@
             </div>
         </section>
 
+        <!--Секция Отзывы-->
+
         <section id="feedback" class="feedback">
             <div class="my_container">
                 <h2 class="feedback__h2">Отзывы</h2>
@@ -339,13 +366,9 @@
                     <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
                 </div>
         </section>
-
-        <!-- <section id="price" class="price">
-            <div class="my_container">
-                <a id="modal" href="#modal1" class="price__button modal-trigger">Оставить заявку</a>
-            </div>
-        </section> -->
         
+        <!--Секция с кнопкой обратной связи-->
+
         <section id="price" class="price">
             <div class="my_container">
                 <a href="#modal-feedback" uk-toggle class="price__button modal-trigger">Оставить заявку</a>
@@ -360,30 +383,17 @@
         <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
             <h2>Уточним детали?</h2>
             <p>Оставьте заявку на обратный звонок, и мы обязательно свяжемся с вами.</p>
-            <form class="modal__form">
-                <input class="modal__form-input" type="text" placeholder="Ваше имя" required>
-                <input class="modal__form-input" type="tel" placeholder="Ваш телефон" required>
+            <form class="modal__form" action="send.php" method="post">
+                <input class="modal__form-input" type="text" name="fio" placeholder="Ваше имя" required>
+                <input class="modal__form-input" type="email" name="email" placeholder="Ваш email" required>
             </form>
             <p class="uk-text-center">
-                <button class="uk-button uk-button-primary modal-close modal__footer-btn" type="button">Отправить</button>
+                <button class="uk-button uk-button-primary modal-close modal__footer-btn" type="submit" value="Отправить">Отправить</button>
             </p>
         </div>
     </div>
 
-    <!-- <div id="modal1" class="modal">
-        <div class="modal__close-icon"><a class="modal-close" href="#!"><i class="material-icons">close</i></a></div>
-        <div class="modal-content">
-            <h2>Уточним детали?</h2>
-            <p>Оставьте заявку на обратный звонок, и мы обязательно свяжемся с вами.</p>
-            <form class="modal__form">
-                <input class="modal__form-input" type="text" placeholder="Ваше имя" required>
-                <input class="modal__form-input" type="tel" placeholder="Ваш телефон" required>
-            </form>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-close modal__footer-btn">Отправить</a>
-        </div>
-    </div> -->
+    <!--Футер-->
 
     <footer class="footer">
         <div class="my_container">
@@ -405,8 +415,7 @@
             </div>
         </div>
     </footer>
-<!-- 
-    <script type="text/javascript" src="js/materialize.min.js"></script> -->
+
     <script type="text/javascript" src="js/uikit.min.js"></script>
     <script src="js/script.js"></script>
 </body>
