@@ -11,14 +11,14 @@ $mail->setLanguage('ru', 'phpmailer/language');
 $mail->IsHTML(true);
 
 //От кого письмо
-$mail->setFrom('trafimava@gmail.com', 'Кадырова Юлька');
+$mail->setFrom('', '');
 //Кому отправить
-$mail->addAddress('trafimava@gmail.com');
+$mail->addAddress('nasyakravtsova@gmail.com');
 //Тема письма
 $mail->Subject = 'Заказ обратного звонка';
 
 //Тело письма
-$body = '<h1>Встречайте суперписьмо!</h2>';
+$body = '<h1>Перезвоните мне, пожалуйста</h2>';
 
 $mail->Body = $body;
 
