@@ -1099,6 +1099,10 @@ polyline {
     transition: all 0.3s ease-out;
 }
 
+.modal__form-input._error {
+    box-shadow: 2px 2px #ff0000;
+}
+
 .uk-button {
     background-color: #bb9b49;
     border-radius: 40px;
